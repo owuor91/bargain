@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.teeshirt.bargain.R;
 
@@ -37,6 +38,7 @@ public class ImageAdapter extends BaseAdapter {
             imageView.setLayoutParams(new GridView.LayoutParams(180, 180));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(8, 8, 8, 8);
+
         } else {
             imageView = (ImageView) convertView;
         }

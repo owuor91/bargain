@@ -24,13 +24,21 @@ public class GroceriesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_groceries, null);
-        GridView gridview=(GridView)root.findViewById(R.id.gridview);
-        gridview.setAdapter(new ImageAdapter(getActivity()));
-        return root;
+        View view = inflater.inflate(R.layout.fragment_groceries, container, false);
+        GridView gridview=(GridView) view.findViewById(R.id.gridview);
+        gridview.setAdapter(new ImageAdapter(view.getContext()));
 
 
+        gridview.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                       Toast.makeText(getActivity(),"Wow",Toast.LENGTH_SHORT).show();
+                    }
+                }
+        );
 
+        return view;
     }
 
 

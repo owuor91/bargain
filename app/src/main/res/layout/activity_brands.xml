@@ -7,6 +7,14 @@
     tools:context="com.example.teeshirt.bargain.Brands">
 
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:id="@+id/text"
         android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text">
+
+    </ListView>
 
 </RelativeLayout>

@@ -37,9 +37,9 @@ public class ElectronicsFragment extends Fragment {
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        String item = (String)gridView.getItemAtPosition(position);
-                        //Intent i = new Intent(view.getContext(), Brands.class);
-                        Toast.makeText(getActivity(),item,Toast.LENGTH_SHORT).show();
+
+                        Intent i = new Intent(view.getContext(), Brands.class);
+                        startActivity(i);
 
                     }
                 }

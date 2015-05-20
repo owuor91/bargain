@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textColor="#ff0000"
-        android:textSize="20dp"
+        android:textSize="23dp"
         android:paddingTop="80dp"
         />
 
@@ -20,7 +20,7 @@
         android:layout_width="64dip"
         android:layout_height="64dip"
         android:src="@drawable/next"
-        app:cb_color="#FF4444"
+        app:cb_color="#FF0000"
         app:cb_pressedRingWidth="8dip"
         android:id="@+id/cbtn"
         android:layout_alignParentBottom="true"

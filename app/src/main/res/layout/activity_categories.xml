@@ -15,13 +15,13 @@
         android:layout_marginBottom="20dp"
         android:onClick="prodActivity"
         fancy:textSize="10dp"
-        fancy:borderColor="#FF4444"
+        fancy:borderColor="#ff3d00"
         fancy:borderWidth="2dp"
-        fancy:defaultColor="#E6000000"
-        fancy:focusColor="#ffcdd2"
+        fancy:defaultColor="#001A1111"
+        fancy:focusColor="#000"
         fancy:radius="6dp"
         fancy:text="Groceries and Foodstuffs"
-        fancy:textColor="#FF0000"
+        fancy:textColor="#ff3d00"
         android:layout_marginTop="40dp"/>
 
     <mehdi.sakout.fancybuttons.FancyButton
@@ -32,13 +32,13 @@
         android:layout_below="@+id/cat1"
         android:onClick="prodActivity2"
         fancy:textSize="10dp"
-        fancy:borderColor="#FF4444"
+        fancy:borderColor="#ff3d00"
         fancy:borderWidth="2dp"
-        fancy:defaultColor="#E6000000"
-        fancy:focusColor="#ffcdd2"
+        fancy:defaultColor="#001A1111"
+        fancy:focusColor="#000"
         fancy:radius="6dp"
         fancy:text="Household Supplies"
-        fancy:textColor="#FF0000"/>
+        fancy:textColor="#ff3d00"/>
 
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/cat3"
@@ -48,13 +48,13 @@
         android:layout_below="@+id/cat2"
         android:onClick="prodActivity3"
         fancy:textSize="10dp"
-        fancy:borderColor="#FF4444"
+        fancy:borderColor="#ff3d00"
         fancy:borderWidth="2dp"
-        fancy:defaultColor="#E6000000"
-        fancy:focusColor="#ffcdd2"
+        fancy:defaultColor="#001A1111"
+        fancy:focusColor="#000"
         fancy:radius="6dp"
         fancy:text="Personal care and Grooming"
-        fancy:textColor="#FF0000"/>
+        fancy:textColor="#ff3d00"/>
 
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/cat4"
@@ -64,13 +64,13 @@
         android:layout_below="@+id/cat3"
         android:onClick="prodActivity4"
         fancy:textSize="10dp"
-        fancy:borderColor="#FF4444"
+        fancy:borderColor="#ff3d00"
         fancy:borderWidth="2dp"
-        fancy:defaultColor="#E6000000"
-        fancy:focusColor="#ffcdd2"
+        fancy:defaultColor="#001A1111"
+        fancy:focusColor="#000"
         fancy:radius="6dp"
         fancy:text="Deli and Bakery"
-        fancy:textColor="#FF0000"/>
+        fancy:textColor="#ff3d00"/>
 
 
     <mehdi.sakout.fancybuttons.FancyButton
@@ -81,13 +81,13 @@
         android:layout_below="@+id/cat4"
         android:onClick="prodActivity5"
         fancy:textSize="10dp"
-        fancy:borderColor="#FF4444"
+        fancy:borderColor="#ff3d00"
         fancy:borderWidth="2dp"
-        fancy:defaultColor="#E6000000"
-        fancy:focusColor="#ffcdd2"
+        fancy:defaultColor="#001A1111"
+        fancy:focusColor="#000"
         fancy:radius="6dp"
         fancy:text="Electronics"
-        fancy:textColor="#FF0000"/>
+        fancy:textColor="#ff3d00"/>
 
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/cat6"
@@ -97,13 +97,13 @@
         android:layout_below="@+id/cat5"
         android:onClick="prodActivity6"
         fancy:textSize="10dp"
-        fancy:borderColor="#FF4444"
+        fancy:borderColor="#ff3d00"
         fancy:borderWidth="2dp"
-        fancy:defaultColor="#E6000000"
-        fancy:focusColor="#ffcdd2"
+        fancy:defaultColor="#001A1111"
+        fancy:focusColor="#000"
         fancy:radius="6dp"
         fancy:text="Liquor"
-        fancy:textColor="#FF0000"/>
+        fancy:textColor="#ff3d00"/>
 
 
 

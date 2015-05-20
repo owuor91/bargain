@@ -5,7 +5,7 @@
     android:background="@drawable/moisture"
     >
 
-    <TextView
+    <!--<TextView
         android:text="TELEVISIONS"
         android:layout_width="fill_parent"
         android:id="@+id/text"
@@ -13,12 +13,12 @@
         android:gravity="center_horizontal"
         android:textSize="20dp"
         android:textColor="#000"
-        />
+        />-->
     <ListView
         android:id="@+id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text">
+        >
 
     </ListView>
 

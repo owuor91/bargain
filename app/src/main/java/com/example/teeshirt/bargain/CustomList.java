@@ -1,6 +1,7 @@
 package com.example.teeshirt.bargain;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +28,9 @@ public class CustomList extends ArrayAdapter<String>{
 
         TextView txt = (TextView)rowView.findViewById(R.id.txt);
         ImageView img = (ImageView)rowView.findViewById(R.id.img);
+
+        Typeface font = Typeface.createFromAsset(context.getAssets(), "OpenSans.ttf");
+        txt.setTypeface(font);
 
         txt.setText(television[position]);
         img.setImageResource(imageId[position]);

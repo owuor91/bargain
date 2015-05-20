@@ -1,16 +1,19 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.teeshirt.bargain.Brands">
+    tools:context="com.example.teeshirt.bargain.Brands"
+    android:background="@drawable/moisture"
+    >
 
     <TextView
         android:text="TELEVISIONS"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:id="@+id/text"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="20dp"
-        android:textColor="#ff0000"/>
+        android:textColor="#000"
+        />
     <ListView
         android:id="@+id/list"
         android:layout_width="wrap_content"

@@ -1,43 +1,121 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000"
-    tools:context="com.example.teeshirt.bargain.Item">
+    android:background="#fff"
+    tools:context="com.example.teeshirt.bargain.Item"
+    android:id="@+id/rel"
+    >
 
-    <TextView android:text="Samsung TV" android:layout_width="wrap_content"
+    <TextView android:text="Samsung TV" android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="15dp"
-        android:textColor="#000"/>
+        android:textColor="#000"
+        android:id="@+id/tvtv"/>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_below="@+id/tvtv">
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="0.6"
-            android:src="@drawable/samsung"/>
-        <TextView
+            android:src="@drawable/samsung"
+            android:layout_marginBottom="20dp"/>
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
-            android:text="Nakumatt: 45000"/>
-        <TextView
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:text="RETAILER"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text=" PRICE"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
-            android:text="Uchumi: 47500"/>
-        <TextView
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:text="Nakumatt"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text=" 45000/-"
+                android:textColor="#000"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
-            android:text="Jumia: 44000"/>
-        <TextView
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:text="Jumia"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text=" 44500/-"
+                android:textColor="#000"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
-            android:text="Ebrahims: 55000"/>
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:text="Ebrahims"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text=" 48000/-"
+                android:textColor="#000"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
 
 
     </LinearLayout>

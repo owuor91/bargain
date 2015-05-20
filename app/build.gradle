@@ -29,4 +29,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.github.markushi:circlebutton:1.1'
     compile 'com.github.medyo:fancybuttons:1.2@aar'
+
 }
